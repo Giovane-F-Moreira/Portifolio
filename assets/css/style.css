@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #3CB371;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #32CD32;
 }
 
 /* Mobile Navigation */
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #3CB371;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #32CD32;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -273,7 +273,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #006400;
 }
 .section-title h2::after {
   content: "";
@@ -281,7 +281,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #32CD32;
   bottom: 0;
   left: 0;
 }
@@ -295,7 +295,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #228B22;
 }
 .about .content ul {
   list-style: none;
@@ -312,7 +312,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: black;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -410,7 +410,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #3CB371;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -448,7 +448,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #3CB371;
 }
 
 /*--------------------------------------------------------------
@@ -732,7 +732,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #3CB371;
   float: left;
   width: 44px;
   height: 44px;
@@ -754,7 +754,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #3CB371;
 }
 .contact .info .email p {
   padding-top: 5px;
@@ -777,11 +777,11 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #3CB371;
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #3CB371;
   color: #fff;
 }
 .contact .php-email-form {
