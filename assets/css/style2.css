@@ -108,18 +108,8 @@
 }
 
 .card img {
-  margin-left: 30px;
-  margin-top: 60px;
   width: 15vw;
   height: 15vw;
-}
-
-.card {
-  width: 65vw;
-}
-
-#bg {
-  background-color: #040b14;
 }
 
 #basic_information p{
@@ -261,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-  background: #32CD32;
+  background: #149ddd;
   color: #fff;
   text-decoration: none;
 }
@@ -637,7 +627,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #32CD28;
+  color: #149ddd;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
