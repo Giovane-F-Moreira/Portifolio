@@ -181,6 +181,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.about-me, .pt-4 Strong, .pt-4 Span {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.row>*{
+  padding-right: 0;
+  padding-left: 2;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -552,7 +563,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #006400;
 }
 
 /*--------------------------------------------------------------
