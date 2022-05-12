@@ -191,7 +191,18 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 2;
 }
 
-
+svg {
+  width: 6vw;
+  height: 6vw;
+}
+ 
+.component-skills {
+  width: 18vw;
+  border-width: medium;
+  border-style: solid;
+  border-color: rgb(7, 7, 7);
+  border-radius: 10px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -534,8 +545,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+
+.text-center{
+ font-size: 1.7vw;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -623,6 +639,14 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio{
+  background-color: #181A1B;
+}
+
+.section-title p {
+  color: #fff;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
