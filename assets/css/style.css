@@ -196,12 +196,8 @@ svg {
   height: 6vw;
 }
  
-.component-skills {
-  width: 18vw;
-  border-width: medium;
-  border-style: solid;
-  border-color: rgb(7, 7, 7);
-  border-radius: 10px;
+.component-skills label{
+font-size: 1rem;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -682,6 +678,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  margin-right: 1.3rem;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -1073,6 +1070,49 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* Button Send Message */
+.button_send {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: black;
+  background: none;
+  border: none;
+  padding: 14px 22px;
+  position: relative;
+}
+
+.button_send::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(calc(100% + 15px));
+  width: 32px;
+  height: 32px;
+  background: rgb(60,179,113);
+  border-radius: 50px;
+  transition: transform .25s .25s cubic-bezier(0,0,.5,2),
+  width .25s cubic-bezier(0,0,.5,2);
+  z-index: -1;
+}
+
+.button_send:hover::before{
+  width: 100%;
+  margin-left: -20px;
+  transform: translateY(1%) translateY(-16px);
+  transition: transform .25s cubic-bezier(0,0,.5,2),
+  width .25s .25s cubic-bezier(0,0,.5,2);
+}
+
+.button_send i {
+  margin-left: 14px;
+  transition: transform .25s .4s cubic-bezier(0,0,.5,2);
+}
+
+.button_send:hover i {
+  transform: translateX(2px);
 }
 
 /*--------------------------------------------------------------
