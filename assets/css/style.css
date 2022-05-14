@@ -10,6 +10,14 @@
   --warning: #F5E960;
   --secondary: #60656F;
 
+  --bg2: #724E91;
+  --text2: #D4DCFF;
+  --light2: #D4DCFF;
+  --green2: #78FFD6;
+  --pink2: #E54F6D;
+  --purple2: #451F55;
+  --light-purple2: #724E91;
+
   --icon-size: 45px;
 }
 
@@ -665,6 +673,111 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #3CB371;
+}
+
+/*--------------------------------------------------------------
+# Hobbies
+--------------------------------------------------------------*/
+.container-title {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.box-title {
+  display: flex;
+  color: var(--text2);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.box-title h1 {
+  font-family: 'Lobster', sans-serif;
+  user-select: none;
+
+  text-shadow: 0 0 2px var(--pink2),
+              0 0 5px var(--pink2),
+              0 0 10px var(--purple2),
+              0 0 15px var(--purple2),
+              0 0 20px var(--purple2);
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main{
+  display: block;
+  background-color: #FFF;
+}
+
+.container{
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section.module p{
+  margin-bottom: 40px;
+}
+
+section.module:last-child{
+  margin-bottom: 0;
+}
+
+section.module.content{
+  padding: 40px 0;
+  background: #ECE7D5;
+}
+
+section.module.parallax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 155vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+section.module.parallax-1{
+  background-image: url("./../../assets/img/bg.png");
+}
+
+.icon {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+  
+  width: 110px;
+  height: 110px;
+
+}
+
+.wrapper img {
+  transition: transform 1s;
+  transform: translateX(0) scale(1);
+}
+
+.wrapper img:hover,
+.wrapper img:focus {
+  transform: translateX(1px) scale(1.6);
 }
 
 /*--------------------------------------------------------------
